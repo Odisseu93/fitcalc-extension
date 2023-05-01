@@ -32,9 +32,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
 	line-height: 1;
 	font-size: $poppins-df;
 	font-weight: $fw-rg;
+	background: $color-primary;
+	width: 350px;
+	height: 500px;
 }
 ol, ul {
 	list-style: none;
@@ -52,3 +58,8 @@ table {
 	border-spacing: 0;
 };
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
