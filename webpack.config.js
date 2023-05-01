@@ -11,6 +11,18 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(?:js|mjs|cjs)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', { targets: "defaults" }]
+            ]
+          }
+        }
+      },
+      {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
@@ -25,7 +37,7 @@ module.exports = {
           // Compiles Sass to CSS
           "sass-loader",
         ],
-      },
+      },     
     ],
   },
   resolve: {
