@@ -7,7 +7,8 @@
     border-radius: 10px;
     font-size: $poppins-df;
 
-    & button, select {
+    & button,
+    select {
         cursor: pointer;
     }
 
@@ -20,7 +21,7 @@
         align-items: center;
         margin-left: 3px;
         background: transparent;
-        // background: red;
+
         &__span {
             color: blue;
             font-size: $poppins-sm;
@@ -36,7 +37,6 @@
         flex-flow: column wrap;
         align-items: center;
 
-        // background: #FFF;
         & fieldset:nth-child(1) {
             display: grid;
             gap: 8px;
@@ -44,7 +44,6 @@
             margin-top: 42px;
             width: fit-content;
             padding: 16px;
-            // border: 1px solid tomato;
         }
 
         &__group {
@@ -53,7 +52,6 @@
             gap: 8px;
             min-width: 114px;
             max-width: 125px;
-            // background: red;
 
             & input {
                 width: 36px;
@@ -65,22 +63,14 @@
 
         &__group:nth-child(1) {
             margin-right: 55px;
-            // background: red;
 
-            // & input {
-            //     width: 32px;
-            // }
         }
+
         &__group:nth-child(3) {
-            // margin-right: 55px;
             label {
                 margin-right: 26px;
             }
-            // background: red;
 
-            // & input {
-            //     width: 32px;
-            // }
         }
 
 
@@ -88,15 +78,11 @@
             display: grid;
             gap: 16px;
             width: fit-content;
-            // grid-template-columns: 1fr;
-            // flex-flow: column wrap;
             justify-content: center;
             align-items: center;
             margin-top: 42px;
             margin: 0 auto;
-            // width: max-content;
             padding: 16px;
-            // border: 1px solid tomato;
 
             & .form__physical-activity-select {
                 display: block;
@@ -104,10 +90,8 @@
                 height: 41px;
                 text-align: center;
                 font-weight: bold;
-                // border: 1px solid tomato;
-                
+
                 &__opt {
-                    // background: blue;
                     font-weight: bold;
                 }
 
@@ -122,15 +106,15 @@
             border: none;
             border-radius: 8px;
             font-size: 18px;
-            // font-weight: bold;
             background: $bg-btn-default;
             color: $color-btn-default;
-            
+
             &:hover {
                 background: $bg-btn-hover;
                 color: $color-btn-hover;
-                
+
             }
+
             &:active {
                 background: $bg-btn-active;
                 color: $color-btn-active;

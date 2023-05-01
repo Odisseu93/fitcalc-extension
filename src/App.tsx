@@ -10,7 +10,7 @@ const App: React.FC = () => {
             <button type="button" className="btn-language" id='btnLanguage'>
                 <span className="btn-language__span">English Version</span>
                 <img className="btn-language__img" src={externalLink} alt="external link icon" />
-                </button>
+            </button>
             <form className="form" action="">
                 <fieldset>
                     <div className="form__group">
