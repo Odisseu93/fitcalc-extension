@@ -37,6 +37,10 @@
         flex-flow: column wrap;
         align-items: center;
 
+        &__lbl {
+            font-size: calc($poppins-df - 3.5px);
+        }
+
         & fieldset:nth-child(1) {
             display: grid;
             gap: 8px;
@@ -54,7 +58,7 @@
             max-width: 125px;
 
             & input {
-                width: 36px;
+                width: 46px;
                 text-align: center;
 
             }
@@ -80,7 +84,7 @@
             width: fit-content;
             justify-content: center;
             align-items: center;
-            margin-top: 42px;
+            margin-top: 52px;
             margin: 0 auto;
             padding: 16px;
 

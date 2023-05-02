@@ -35,7 +35,7 @@ const App: React.FC = () => {
                     </div>
                 </fieldset>
                 <fieldset>
-                    <div className="group__group">
+                    <div>
                         <label htmlFor="physicalActivity">Fator de atividade física</label>
                         <select className="form__physical-activity-select" name="physicalActivity" id="physicalActivity">
                             <option className="form__physical-activity-select__opt" value="Sedentary">Sedentário</option>
