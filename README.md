@@ -93,7 +93,7 @@ npm run build
 - Open Chrome and go to `chrome://extensions`
 - Enable "Developer mode" in the top right corner
 - Click "Load unpacked" in the top left corner
-- Select the `build` folder inside the cloned repository
+- Select the folder inside of cloned repository
 
 To build the project for production, run the `prod` script instead of the `build` script:
 ```
@@ -129,7 +129,7 @@ npm run build
 - Abra o Chrome e vá para `chrome://extensions`
 - Habilite o "modo de desenvolvedor" no canto superior direito
 - Clique em "Carregar sem compactação" no canto superior esquerdo
-- Selecione a pasta `build` dentro do repositório clonado
+- Selecione a pasta do repositório clonado
 
 Para construir o projeto para produção, execute o script `prod` em vez do script `build`:
 ```
