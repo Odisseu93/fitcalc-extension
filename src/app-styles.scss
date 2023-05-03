@@ -72,7 +72,7 @@
 
         &__group:nth-child(3) {
             label {
-                margin-right: 26px;
+                margin-right: 23px;
             }
 
         }
@@ -123,6 +123,66 @@
                 background: $bg-btn-active;
                 color: $color-btn-active;
                 box-shadow: $shadow-md;
+            }
+        }
+    }
+
+    .result {
+        display: grid;
+        justify-content: center;
+        gap: 16px;
+
+        .data {
+            margin-top: 16px;
+            display: grid;
+            justify-content: center;
+            gap: 16px;
+            padding: 8px;
+            width: 80vw;
+            border: 1px solid #000;
+
+            .item {
+                display: flex;
+                flex-flow: column wrap;
+
+                & .description {
+                    margin-right: 16px;
+                    font-size: $poppins-sm - 4;
+                }
+            }
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            align-items: center;
+
+            .link {
+                font-size: $poppins-sm;
+                color: blue;
+            }
+
+            & .btn-backToHome {
+                height: 30px;
+                width: 85px;
+                border: none;
+                border-radius: 8px;
+                font-size: 18px;
+                background: $bg-btn-default;
+                color: $color-btn-default;
+
+                &:hover {
+                    background: $bg-btn-hover;
+                    color: $color-btn-hover;
+
+                }
+
+                &:active {
+                    background: $bg-btn-active;
+                    color: $color-btn-active;
+                    box-shadow: $shadow-md;
+                }
             }
         }
     }
