@@ -1,5 +1,15 @@
 # Fitcalc
+
+
 ![logo](https://user-images.githubusercontent.com/76600539/235824118-1520f429-d8f5-47ef-8deb-cc5bb6d99b32.png)
+
+<div align='center'> 
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
+     <img src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black"/>
+</div>   
 
 This is a Google Chrome extension that calculates health and fitness information, including:
 
@@ -127,3 +137,22 @@ npm run prod
 O script `test` não está configurado no momento e simplesmente retornará uma mensagem de erro.
 
 O projeto utiliza o Webpack, Babel, TypeScript e SASS para construir e empacotar o código. As dependências podem ser encontradas nas seções `devDependencies` e `dependencies` do arquivo `package.json`.
+---
+## Design
+[Figma](https://www.figma.com/file/M4711jqG2PBBV0bSIIq5GR/FitCalc?node-id=0%3A1&t=ZgpSb4SRRvIdwmS0-1)
+---
+## License / Licença
+[MIT](LICENSE.md) 
+---
+## Developer / Desenvolvedor
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/76600539/235897309-88ab21df-d0be-4905-829c-36ab68ebc2e8.png" alt="developer: Ulisses Silvério"    width="200px" align="center"/>
+</div>
+<br>
+<div align="center" margin="50px">
+ <a href="https://linktr.ee/ulissessilverio" align="center">
+  <img src="https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white" alt="linktree shild" />
+</a>
+</div>
+  
