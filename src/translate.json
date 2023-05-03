@@ -1,0 +1,32 @@
+{
+    "BMR": [
+        "TMB",
+        "BMR",
+        "Taxa Metabólica Basal - kcal/dia",
+        "Basal Metabolic Rate - kcal/day"
+    ],
+    "TDEE": [
+        "CDN",
+        "TDEE",
+        "Calorias Diárias Necessárias - kcal/dia",
+        "Total Daily Energy Expenditure - kcal/day"
+    ],
+    "MHR": [
+        "FCM",
+        "MHR",
+        "Frequência Cardíaca Máxima - bpm",
+        "Maximum Heart Rate - bpm"
+    ],
+    "BMI": [
+        "IMC",
+        "BMI",
+        "Índice de Massa Corporal - Kg/m2",
+        "Body Mass Index - Kg/m2"
+    ],
+    "DWI": [
+        "IDA",
+        "DWI",
+        "Ingestão Diária de Água - L",
+        "Daily Water Intake - L"
+    ]
+}
