@@ -32,6 +32,7 @@ The formulas used in this extension were based on the following reliable sources
 - Basal Metabolic Rate: Mifflin, M.D., St Jeor, S.T., Hill, L.A., Scott, B.J., Daugherty, S.A., & Koh, Y.O. A new predictive equation for resting energy expenditure in healthy individuals, 2005.
 
 Feel free to check the sources for more information on the formulas and calculations used in this extension.
+
 ---
 Esta é uma extensão do Google Chrome que calcula informações de saúde e fitness, incluindo:
 
@@ -52,6 +53,7 @@ As fórmulas utilizadas nesta extensão foram baseadas nas seguintes fontes conf
 - **Taxa Metabólica Basal:** Mifflin, M.D., St Jeor, S.T., Hill, L.A., Scott, B.J., Daugherty, S.A., &amp; Koh, Y.O. [A new predictive equation for resting energy expenditure in healthy individuals](https://www.ncbi.nlm.nih.gov/pubmed/15883556), 2005.
 
 Sinta-se à vontade para verificar as fontes para obter mais informações sobre as fórmulas e cálculos utilizados nesta extensão.
+
 ---
 ## Technologies Used:
 
@@ -137,6 +139,7 @@ npm run prod
 O script `test` não está configurado no momento e simplesmente retornará uma mensagem de erro.
 
 O projeto utiliza o Webpack, Babel, TypeScript e SASS para construir e empacotar o código. As dependências podem ser encontradas nas seções `devDependencies` e `dependencies` do arquivo `package.json`.
+
 ---
 ## Design
 [Figma](https://www.figma.com/file/M4711jqG2PBBV0bSIIq5GR/FitCalc?node-id=0%3A1&t=ZgpSb4SRRvIdwmS0-1)
