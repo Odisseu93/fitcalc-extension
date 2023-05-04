@@ -19,7 +19,8 @@ This is a Google Chrome extension that calculates health and fitness information
 - Daily Calorie Needs
 - Basal Metabolic Rate
 
-![20230502_235001](https://user-images.githubusercontent.com/76600539/235824577-9e5cfe1e-6f19-4084-9bb7-ded9805bd794.gif)
+![Application presentation GIF](https://user-images.githubusercontent.com/76600539/236177855-a6a39887-ccd6-4ac3-8bab-4d98bda4614b.gif)
+
 
 
 ## Sources
